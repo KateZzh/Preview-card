@@ -23,6 +23,7 @@
   padding: 0;
   font-family: "Mulish";
   font-style: normal;
+  box-sizing: border-box;
 }
 
 body {
@@ -51,6 +52,11 @@ header .img-logo {
   background-size: contain;
   width: 124px;
   height: 38px;
+}
+
+header p {
+  font: 700 16px "Mulish";
+  color: #001a49;
 }
 
 header .btn {
